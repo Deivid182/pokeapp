@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body, #root  {
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.grid-pokedex {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  place-content: center;
+}

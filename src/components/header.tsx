@@ -6,7 +6,7 @@ import { HeartIcon } from './icons'
 const Header = () => {
   return (
     <nav className='w-full fixed bg-red-500 z-20 shadow-sm'>
-      <div className='border-b border-gray-200 py-4'>
+      <div className='border-b border-gray-200 py-1'>
         <Container>
           <div className='flex items-center justify-between'>
             <Link to='/' >
