@@ -92,7 +92,7 @@ const PokemonPage = () => {
           <p className='text-center text-xl font-semibold text-gray-700 uppercase'>
             Evolutions
           </p>
-          <div className='flex gap-3'>
+          <div className='flex max-lg:flex-col flex-row gap-3'>
             {pokeEvoArray.map((evo, index) => (
               <div
                 className='flex-1 relative w-full p-2 bg-gray-100 rounded-lg'

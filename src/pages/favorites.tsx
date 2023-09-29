@@ -7,7 +7,7 @@ import { useMemo, useState } from 'react'
 
 const Favorites = () => {
 
-  const {  state } = useFavorites()
+  const { state } = useFavorites()
   const [sorting, setSorting] = useState<SortBy>(SortBy.NONE)
 
   const handleChangeSort = (sort: SortBy) => {
