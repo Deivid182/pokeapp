@@ -12,7 +12,6 @@ const App = () => {
   return (
     <FavoritesProvider>
       <BrowserRouter>
-        <Header />
         <Routes>
           <Route path='/' element={<RootLayout />}>
             <Route index element={<Home />} />
@@ -20,7 +19,6 @@ const App = () => {
             <Route path='favorites' element={<Favorites />} />
           </Route>
         </Routes>
-        <Footer />
       </BrowserRouter>
     </FavoritesProvider>
   )
