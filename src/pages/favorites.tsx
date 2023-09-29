@@ -39,7 +39,7 @@ const Favorites = () => {
         </div>
       ) : (
         <div className='grid gap-8'>
-          <div className='flex items-center gap-4'>
+          <div className='flex max-sm:w-[60%] max-sm:flex-col sm:items-center gap-4'>
             <button
               onClick={() => handleChangeSort(SortBy.NAME)}
               className='flex items-center justify-center bg-red-500 hover:bg-red-600 p-2 rounded-lg text-white'
@@ -58,7 +58,6 @@ const Favorites = () => {
             >
               Reset
             </button>
-            
           </div>
           <div className='grid-pokedex '>
             {sortedFavorites.map((pokemon) => (
