@@ -1,13 +1,50 @@
-# User Stories
+# PokeApp
 
-- [x] Consume the next api "https://pokeapi.co/docs/v2"
+PokeApp is a simple application that allows you to search for Pokémon by number and name. You can view details about each Pokémon, including their image, name, ID, skills, and transformations. You can also save your favorite Pokémon and view them in a favorites view.
 
-- [x] Build a simple application with a searcher, this one must be able to find pokemons by number and name.
+## Prerequisites
 
-- [x] In the view, the pokemon card only shows its image, name, id and skills. In the other hand, the little cards show its transformations. According to the type of pokemon, assing a color to it.
+Before you begin, ensure you have met the following requirements:
 
-- [x] Build a favorites view with an option for removing a pokemon from there.
+* You have installed the latest version of [Node.js and npm](https://nodejs.org/en/download/).
+* You have a Windows/Linux/Mac machine.
 
-- [x] Save the favorites that the user has clicked on in a sidebar.
+## Installing PokeApp
 
-- [x] The favorites page must let you order the list alphabetically ✅, by pokemon, by evolution and by type ✅.
+To install PokeApp, follow these steps:
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/Deivid182/pokeapp.git
+```
+
+2. Navigate into the project directory:
+cd pokeapp
+
+3. Install the dependencies:
+```sh
+npm install
+```
+
+## Using PokeApp
+
+To use PokeApp, follow these steps:
+
+1. Start the development server:
+
+```sh
+npm run dev
+```
+
+2. Open your web browser and navigate to `http://localhost:5000`.
+
+## Contributing to PokeApp
+
+To contribute to PokeApp, follow these steps:
+
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request.
