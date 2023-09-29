@@ -15,7 +15,7 @@ const Home = () => {
       const baseUrl = 'https://pokeapi.co/api/v2';
       try {
         setIsLoading(true);
-        const { data } = await axios(`${baseUrl}/pokemon`);
+        const { data } = await axios(`${baseUrl}/pokemon?limit=150`);
 
         const promises = data.results.map(async (pokemon: PokemonSingle) => {
           const { data } = await axios(pokemon.url);
@@ -59,7 +59,14 @@ const Home = () => {
         )}
         <div className='grid-pokedex '>
           {filteredPokemons.map((pokemon: Pokemon) => (
-            <PokeCard key={pokemon.id} pokemon={pokemon} />
+            <PokeCard
+              key={pokemon.id}
+              id={pokemon.id}
+              name={pokemon.name}
+              image={pokemon.sprites.other['home'].front_default}
+              types={pokemon.types}
+              abilities={pokemon.abilities}
+            />
           ))}
         </div>
       </Container>

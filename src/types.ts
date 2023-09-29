@@ -1,9 +1,34 @@
+export enum SortBy {
+  NONE = 'none',
+  NAME = 'name',
+  TYPE = 'type',
+}
+
+export interface PokemonItem {
+  id: number;
+  name: string;
+  img: string
+  types: TypeElement[]
+}
+
 export interface Pokemon {
   abilities: AbilityElement[];
   id:        number;
   sprites:   Sprites;
   name:      string;
+  types:     TypeElement[];
 }
+
+export interface TypeElement {
+  slot: number;
+  type: TypeType;
+}
+
+export interface TypeType {
+  name: string;
+  url:  string;
+}
+
 
 export interface AbilityElement {
   ability:   AbilityAbility;

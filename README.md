@@ -6,8 +6,8 @@
 
 [x] In the view, the pokemon card only shows its image, name, id and skills. In the other hand, the little cards show its transformations. According to the type of pokemon, assing a color to it.
 
-[] Build a favorites view with an option for removing a pokemon from there.
+[x] Build a favorites view with an option for removing a pokemon from there.
 
-[] Save the favorites that the user has clicked on in a sidebar.
+[x] Save the favorites that the user has clicked on in a sidebar.
 
-[] The favorites page must let you order the list alphabetically, by pokemon, by evolution and by type.
+[] The favorites page must let you order the list alphabetically ✅, by pokemon, by evolution and by type.
