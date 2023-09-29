@@ -62,6 +62,7 @@ const FavoritesSidebar: React.FC<FavoritesDrawerProps> = ({
                       <div className='flex justify-end'>
                         <Link
                           to={'/favorites'}
+                          onClick={onClose}
                           className='flex items-center gap-2 px-3 py-2 text-sm font-medium text-center text-white bg-sky-500 rounded-lg '
                         >
                           Go to favorites

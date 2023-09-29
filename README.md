@@ -10,4 +10,4 @@
 
 [x] Save the favorites that the user has clicked on in a sidebar.
 
-[] The favorites page must let you order the list alphabetically ✅, by pokemon, by evolution and by type.
+[] The favorites page must let you order the list alphabetically ✅, by pokemon, by evolution and by type ✅.

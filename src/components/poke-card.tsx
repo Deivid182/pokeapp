@@ -49,6 +49,16 @@ const PokeCard: React.FC<PokeCardProps> = ({ name, id, image, abilities, types }
               </span>
             </p>
           )}
+
+          {types && (
+            <p className='text-xl font-semibold tracking-tight text-gray-900 uppecase'>
+              Types:{' '}
+              <span className='text-gray-600 font-normal'>
+                {types.map((type) => type.type.name).join(', ')}
+              </span>
+            </p>
+          )}
+
           <div className='flex items-center justify-between'>
             <button
               onClick={() => {

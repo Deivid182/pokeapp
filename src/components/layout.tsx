@@ -6,7 +6,7 @@ const RootLayout = () => {
   return (
     <>
       <Header />
-      <main className='pt-28 pb-20'>
+      <main className='py-20'>
         <Container>
           <Outlet />
         </Container>

@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import axios, { AxiosError } from 'axios';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import placeholder from '../assets/placeholder.png';
 
 interface PokeEvo {
