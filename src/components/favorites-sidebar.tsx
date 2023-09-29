@@ -44,6 +44,7 @@ const FavoritesSidebar: React.FC<FavoritesDrawerProps> = ({
                   <div className='flex h-full flex-col overflow-y-scroll bg-white shadow-xl py-6 px-4 sm:px-6'>
                     <div className='flex items-center justify-end h-12'>
                       <button
+                        aria-label='Close panel'
                         type='button'
                         onClick={onClose}
                         className='rounded-md 
@@ -85,6 +86,7 @@ const FavoritesSidebar: React.FC<FavoritesDrawerProps> = ({
                             </p>
                             <div className='flex justify-end '>
                               <button
+                                aria-label='Remove from favorites'
                                 className='flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-transparent rounded-lg hover:bg-neutral-200 focus:ring-4 focus:outline-none'
                                 onClick={() => {
                                   dispatch({

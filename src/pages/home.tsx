@@ -83,6 +83,7 @@ const Home = () => {
         {!isLoading && (
           <div className='flex justify-center pt-4'>
             <button
+              aria-label='Load More'
               onClick={() => setOffset(offset + 20)}
               className='flex justify-center bg-red-500 hover:bg-red-600 p-2 rounded-lg text-white'
             >

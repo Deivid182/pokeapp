@@ -1,7 +1,6 @@
 # PokeApp
 
-PokeApp is a simple application that allows you to search for Pokémon by number and name. You can view details about each Pokémon, including their image, name, ID, skills, and transformations. You can also save your favorite Pokémon and view them in a favorites view.
-
+PokeApp is a simple application that allows you to search for Pokémon by number and name. You can view details about each Pokémon, including their image, name, ID, skills, and transformations. You can also save your favorite Pokemon and view them in a favorites view.
 
 ## Table of contents
 
@@ -21,8 +20,8 @@ PokeApp is a simple application that allows you to search for Pokémon by number
 
 Before you begin, ensure you have met the following requirements:
 
-* You have installed the latest version of [Node.js and npm](https://nodejs.org/en/download/).
-* You have a Windows/Linux/Mac machine.
+- You have installed the latest version of [Node.js and npm](https://nodejs.org/en/download/).
+- You have a Windows/Linux/Mac machine.
 
 ## Screenshot
 
@@ -54,9 +53,10 @@ git clone https://github.com/Deivid182/pokeapp.git
 ```
 
 2. Navigate into the project directory:
-cd pokeapp
+   cd pokeapp
 
 3. Install the dependencies:
+
 ```sh
 npm install
 ```

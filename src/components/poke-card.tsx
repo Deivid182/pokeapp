@@ -61,6 +61,7 @@ const PokeCard: React.FC<PokeCardProps> = ({ name, id, image, abilities, types }
 
           <div className='flex items-center justify-between'>
             <button
+              aria-label='Learn more about this pokemon'
               onClick={() => {
                 navigate(`/pokemon/${id}`);
               }}
@@ -84,6 +85,7 @@ const PokeCard: React.FC<PokeCardProps> = ({ name, id, image, abilities, types }
               </svg>
             </button>
             <button
+              aria-label='Add to favorites'
               className='flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-transparent rounded-lg hover:bg-neutral-200 focus:ring-4 focus:outline-none'
               onClick={() => {
                 dispatch({

@@ -23,7 +23,8 @@ const Header = () => {
                 <img src={logoPokeApp} alt="logo-poke-app" width={150} height={50} />
               </Link>
 
-              <button 
+              <button
+                aria-label='Open favorites panel'
                 className='flex items-center p-2 w-fit border-none'
                 onClick={() => setIsOpen(true)}
               >
